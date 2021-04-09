@@ -1,0 +1,44 @@
+body {
+	display: grid;
+	height: 100vh;
+	grid-template: auto 1fr auto / minmax(150px, 1fr) 1fr minmax(150px, 1fr);
+}
+
+header {
+	text-align: center;
+	background: #8f8f8f;
+	padding: 2rem;
+	grid-column: 1 / 4;
+}
+
+.left-sidebar {
+	background: #cbb4d6;
+	grid-column: 1 / 2;
+}
+
+main {
+	background: #ff94ea;
+	grid-column: 2 / 3;
+}
+
+.right-sidebar {
+	background: #b4d3d6;
+	grid-column: 3 / 4;
+}
+
+footer {
+	text-align: center;
+	background: #94ffc8;
+	padding: 2rem;
+	text-align: center;
+	grid-column: 1 / 4;
+}
+
+body {
+	font-family: system-ui, sans-serif;
+}
+
+.left-sidebar,
+.right-sidebar {
+	padding: 1rem;
+}
