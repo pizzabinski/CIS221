@@ -49,7 +49,6 @@ h1+p {
 	font-size: 1.2em;
 	line-height: 140%;
 }
-/* or p:first-of-type selects first p on page */
 a[href*="http://"] {
 	background-color: rgb(69,189,102);
 	font-weight: bold;
